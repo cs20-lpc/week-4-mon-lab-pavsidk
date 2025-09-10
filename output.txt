@@ -1,0 +1,11 @@
+Element 1: 43
+getElement: error, position is out of bounds
+Element 2, original: 62
+Element 2, replaced: 100
+replace: error, position must be non-negative
+replace: error, position is out of bounds
+Length before new append: 3
+Length after new append: 4
+After clearing: The list is empty.
+Element 1 from the 2nd linked list: Hello there!
+2nd linked list, printed using overloaded operator: World --> Hello there! --> This is another string.
