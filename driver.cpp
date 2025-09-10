@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    //creating the first linked list, for integers
+    //creating the first linked list, for integer type
     LinkedList<int> myNumbers;
     myNumbers.append(10);
     myNumbers.append(43);
@@ -59,7 +59,7 @@ int main() {
         cout << "The list is not empty." << endl;
     }
 
-    //creating the second linked list, for 
+    //creating the second linked list, for string type
     LinkedList<string> myWords;
     myWords.append("World");
     myWords.append("Hello there!");
