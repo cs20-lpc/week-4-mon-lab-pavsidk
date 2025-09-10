@@ -1,3 +1,5 @@
+Length of empty linked list: 0
+Length of after appending once to an empty linked list: 1
 Element 1: 43
 getElement: error, position is out of bounds
 Element 2, original: 62

@@ -7,7 +7,12 @@ int main() {
 
     //creating the first linked list, for integer type
     LinkedList<int> myNumbers;
+    
+    cout << "Length of empty linked list: " << myNumbers.getLength() << endl;
+    //appending to an empty list
     myNumbers.append(10);
+    cout << "Length of after appending once to an empty linked list: " << myNumbers.getLength() << endl;
+
     myNumbers.append(43);
     myNumbers.append(62);
 
@@ -66,7 +71,6 @@ int main() {
     myWords.append("This is another string.");
 
     //getting element 1
-    myWords.insert(1, "new word");
     cout << "Element 1 from the 2nd linked list: " << myWords.getElement(1) << endl;
 
     //printing the second linked list
